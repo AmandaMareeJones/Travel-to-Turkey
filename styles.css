@@ -9,11 +9,19 @@ body {
   margin: 0 auto;
 }
 section {
-    max-width: 1200px;
+    max-width: 100%;
     margin 0 auto;
-    padding: 20px 0;
+    padding: 40px;
 }
 
+.main-second {
+  background-color: rgb(163, 173, 175, 0.3);
+
+}
+
+h2 {
+  text-align: center;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url(images/rooftopbar.JPG);
@@ -63,6 +71,39 @@ header a {
   display: grid;
     grid-template-columns: 1fr 1fr;
 grid-gap: 16px;
+}
+
+.grid-section-two {
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 16px;
+}
+
+.card {
+  background-color: white;  
+  margin: 30px 0;
+
+}
+
+.card h4 {
+font-size: 12px;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.card-button {
+  display: block;
+  color: white;
+  background-color: lightskyblue;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 16px;
+  text-decoration: none;
 }
 
 .footer-grid {
