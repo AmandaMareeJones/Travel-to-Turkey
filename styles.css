@@ -176,6 +176,10 @@ grid-gap: 12px;
 .embed {
   aspect-ratio: 16 / 9;
   }
+  iframe{
+    margin-left: 0;
+    width:100%;              
+  }
 .footer-grid {
 grid-template-columns: 1fr;
 grid-gap: 14px;
